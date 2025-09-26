@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Reader version="12.1.0.0322" lastdate="2023//06//17" language="zh-CN" publisher="Foxit">
+<Font>
+<PreFont FaceName="Segoe UI" Charset="0"/>
+</Font>
+<Dialogs>
+<Dialog id="103" text="全球化-多語言" left="0" top="0" width="569" height="224">
+<dlgitem id="1001" text="歡迎來到全球化世界！" left="26" top="32" width="501" height="109"/>
+<dlgitem id="1" text="確定(&amp;O)" left="359" top="146" width="88" height="26"/>
+<dlgitem id="2" text="取消(&amp;C)" left="453" top="146" width="88" height="26"/>
+</Dialog>
+</Dialogs>
+<Strings>
+<string id="101" text="全球化"/>
+<string id="102" text="全球化窗口"/>
+</Strings>
+<Version>
+<VerDes name="FileDescription" value="全球外掛程式用于帮助用户了解如何全球化插件。" />
+<VerLeg name="LegalCopyright" value="Copyright © 2014-2024 Foxit Software Inc. 保留所有權利。" />
+</Version>
+</Reader>

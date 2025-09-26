@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FoxitPlugin version="1">
+	<Property 
+		Name="FoxitSamplePluginExtensionHFT"
+		FriendlyName="Extension HFT"
+		Description="Extension HFT Sample"
+		PIPath="Extension HFT.fpi"
+		LoadBehavior="3"
+		MinVersion=""
+	/>
+</FoxitPlugin>
