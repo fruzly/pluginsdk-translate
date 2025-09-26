@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Global.cpp" />
+    <ClCompile Include="StdAfx.cpp" />
+    <ClCompile Include="DemoDlg.cpp" />
+    <ClCompile Include="..\..\include\pimain\PIMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Global.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="resource1.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="DemoDlg.h" />
+    <ClInclude Include="..\..\include\pimain\PIMain.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Global.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Global.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="res\cert.txt" />
+  </ItemGroup>
+</Project>

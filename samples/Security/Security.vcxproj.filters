@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1e99ca00-a1f9-4c51-a220-5ef97f0412be}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{90c258d6-b328-4547-92b1-4ac0e34648b0}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{14a613f7-9a83-4e5b-9181-ee050de6dcf8}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Callbacks">
+      <UniqueIdentifier>{55988ea3-11c4-4cfc-ab9b-116182960d25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Callbacks">
+      <UniqueIdentifier>{5200b872-3afb-4558-a7a9-1717d4b95b27}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Security.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Callbacks\FoxitContentProviderCallbacks.cpp">
+      <Filter>Source Files\Callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CustomStringPtr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Callbacks\FoxitSecurityCallbacks.cpp">
+      <Filter>Source Files\Callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SecurityPolicy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Callbacks\FoxitCryptoCallbacks.cpp">
+      <Filter>Source Files\Callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Callbacks\FoxitSecurityMethodCallbacks.cpp">
+      <Filter>Source Files\Callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UIExtention.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FDocInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\pimain\PIMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Security.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Security.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Callbacks\FoxitContentProviderCallbacks.h">
+      <Filter>Header Files\Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Callbacks\FoxitSecurityCallbacks.h">
+      <Filter>Header Files\Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SecurityPolicy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Callbacks\FoxitCryptoCallbacks.h">
+      <Filter>Header Files\Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UIExtention.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\pimain\PIMain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Security.def">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\Security.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="res\cert.txt" />
+  </ItemGroup>
+</Project>
